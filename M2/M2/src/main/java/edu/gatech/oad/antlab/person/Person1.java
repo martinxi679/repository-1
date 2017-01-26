@@ -17,7 +17,7 @@ public class Person1 {
 	 * @param pname the person's real name
 	 */
   public Person1(String pname) {
-    name = pname;
+    name = "Wei Chen";
   }
   	/**
 	 * This method should take the string
@@ -31,7 +31,9 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	  return null;
+	  input = input.substring(0, 1) + input.substring(1, input.length());
+
+	  return input;
 	}
 	
 	/**
