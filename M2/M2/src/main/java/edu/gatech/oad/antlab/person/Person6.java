@@ -20,7 +20,7 @@ public class Person6 {
      *
      * @param pname the person's real name
      */
-    public Person5(String pname) {
+    public Person6(String pname) {
         name = pname;
     }
 
@@ -35,12 +35,7 @@ public class Person6 {
      * @return the modified string
      */
     private String calc(String input) {
-        String a;
-        for (int i = 2, i <input.length(), i++){
-            a += input.char(i);
-        }
-        a += input.charAt(0) + input.charAt(1);
-        return a;
+       return input.substring(2)+input.substring(0,2);
     }
 
     /**
